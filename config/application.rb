@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+require_relative "../vendor/gems/cms/lib/cms/engine"
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
